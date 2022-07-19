@@ -39,6 +39,7 @@
 button#theme-toggle {
     font-size: 26px;
     margin: auto 4px;
+    color: white;
 }
 
 body.dark #moon {
@@ -90,4 +91,16 @@ body:not(.dark) #sun {
 
 .logo-switches {
     flex-wrap: inherit;
+}
+
+html {
+    overflow-y: unset;
+}
+
+.header {
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+}
+
+.header a {
+    color: white !important;
 }
